@@ -1,0 +1,8 @@
+site_name: {{ cookiecutter.project_name }}
+theme:
+  name: readthedocs
+markdown_extensions:
+  - admonition
+repo_url: https://github.com/{{ cookiecutter.github_username }}/{{ cookiecutter.project_slug }}
+site_author: {{ cookiecutter.full_name }}
+site_description: {{ cookiecutter.project_short_description }}
