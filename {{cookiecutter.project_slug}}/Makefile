@@ -83,9 +83,6 @@ docs: ## generate Sphinx HTML documentation, including API docs
 servedocs: ## Serve documentation in browser
 	poetry run mkdocs serve
 
-release: dist ## package and upload a release
-	twine upload dist/*
-
 dist: clean ## builds source and wheel package
 	poetry publish
 
